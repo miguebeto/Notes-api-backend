@@ -25,13 +25,13 @@ const PORT = process.env.PORT || 3001;
 const cors = require ('cors');
 
 app.use(express.json());
-app.use((req, res, next) => {
-  console.log(req.method);
-  console.log(req.path);
-  console.log(req.body);
-  console.log('--------------------');
-  next();
-});
+// app.use((req, res, next) => {
+//   console.log(req.method);
+//   console.log(req.path);
+//   console.log(req.body);
+//   console.log('--------------------');
+//   next();
+// });
 app.use(cors());
 
 

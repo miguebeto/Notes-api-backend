@@ -1,0 +1,33 @@
+{
+  "name": "fullstackopen",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "boxen": "^5.1.2",
+    "eslint": "^8.0.1",
+    "express": "^4.17.1",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguebeto/Notes-api-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguebeto/Notes-api-backend/issues"
+  },
+  "homepage": "https://github.com/miguebeto/Notes-api-backend#readme"
+}
